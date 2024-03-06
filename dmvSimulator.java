@@ -31,7 +31,7 @@ public class dmvSimulator{
         }
         if (new Random().nextInt(100) != 0){
             System.out.println("Number " + userNumber + ", you're up. Please come to the counter.");
-            System.out.println("Sorry, you don't have the required paperwork.\nPlease come back with all the proper paper work.");
+            System.out.println("You don't have the required paperwork. GET OUT! HAHAHAHAHAHAHAHAHAHA!!!!");
         }
     }
 }
