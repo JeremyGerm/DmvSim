@@ -31,6 +31,6 @@ public class dmvSimulator{
         }
 
         System.out.println("Number " + userNumber + ", you're up. Please come to the counter.");
-        System.out.println("You don't have the required paperwork. GET OUT!");
+        System.out.println("You don't have the required paperwork. GET OUT! HAHAHAHAHAHAHAHAHAHA!!!!");
     }
 }
