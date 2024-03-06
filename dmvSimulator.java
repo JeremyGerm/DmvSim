@@ -10,7 +10,7 @@ public class dmvSimulator{
 
     private static int randomNumber() {
         Random random = new Random();
-        return random.nextInt(100) + 1;
+        return random.nextInt(200) + 1;
     }
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class dmvSimulator{
         while (currentNumber != userNumber) {
             System.out.println("Number " + currentNumber + " please come to the counter.");
             currentNumber++; //Increment currentnumber (+1 each time around the loop)
-            if (currentNumber > 100) {
+            if (currentNumber > 200) {
                 currentNumber = 1;
             }
         }
