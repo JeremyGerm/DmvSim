@@ -29,8 +29,9 @@ public class dmvSimulator{
                 currentNumber = 1;
             }
         }
-
-        System.out.println("Number " + userNumber + ", you're up. Please come to the counter.");
-        System.out.println("You don't have the required paperwork. GET OUT! HAHAHAHAHAHAHAHAHAHA!!!!");
+        if (new Random().nextInt(100) != 0){
+            System.out.println("Number " + userNumber + ", you're up. Please come to the counter.");
+            System.out.println("You don't have the required paperwork. GET OUT! HAHAHAHAHAHAHAHAHAHA!!!!");
+        }
     }
 }
